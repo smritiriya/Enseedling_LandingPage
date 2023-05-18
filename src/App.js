@@ -1,24 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+
+
+import React from "react";
+import Navbar from "./components/Navbar";
+import Service from "./components/Service";
+import Section1 from "./components/Section1";
+import CompanyRegis from "./components/CompanyRegis";
+import LegalAndAccount from "./components/LegalAndAccount";
+import DigitalMarketing from "./components/DigitalMarketing";
+import AppDevelopement from "./components/AppDevelopement";
+import FundRaising from "./components/FundRaising";
+import StartupSupport from "./components/StartupSupport";
+import StartupAcc from "./components/StartupAccuisition";
+import Internship from "./components/Internship";
+import Blogs from "./components/Blogs";
+import Contactus from "./components/Contactus";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <Section1 />
+      <Service />
+      <CompanyRegis />
+      <LegalAndAccount />
+      <DigitalMarketing />
+      <AppDevelopement />
+      <FundRaising />
+      <StartupSupport />
+      <StartupAcc />
+      <Internship />
+      <Blogs />
+      <Contactus/>
+    </>
   );
 }
 
