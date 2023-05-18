@@ -1,16 +1,15 @@
 import React from "react";
 
 function Service() {
+
    const cardstyle = {
      background: "#EBEBEB",
      color: "#6641AA",
      fontWeight: "800",
      border: "none",
-     width: "15%",
-    //  margin: "2rem",
+     height:"20vh",
      textAlign: "center",
      fontSize: "20px",
-    //  padding: "4rem",
      fontWeight: "700",
      borderRadius: "5px",
     
@@ -56,13 +55,13 @@ function Service() {
     //     </div>
     //   </div>
     //   <div className="card-deck d-flex justify-content-center p-2">
-    //     <div className="card w-23 m-4 p-4" style={cardstyle}>
-    //       <div className="card-body text-center">
-    //         <h2 className="card-title">
-    //           Fund Raising <br /> Service
-    //         </h2>
-    //       </div>
-    //     </div>
+        // <div className="card w-23 m-4 p-4" style={cardstyle}>
+        //   <div className="card-body text-center">
+        //     <h2 className="card-title">
+        //       Fund Raising <br /> Service
+        //     </h2>
+        //   </div>
+        // </div>
     //     <div className="card  w-23  m-4 p-4" style={cardstyle}>
     //       <div className="card-body text-center">
     //         <h2 className="card-title">
@@ -87,32 +86,66 @@ function Service() {
     //   </div>
     // </div>
     <>
-      <div class="row p-3 d-flex justify-content-center" style={row}>
-        <h1 className="text-center">Services</h1>
-        <div class="col col-md-4 col-lg-3" style={cardstyle}>
-          Company <br /> Registration
+      <div className="row d-flex justify-content-between m-0" style={row}>
+        <h1 className="text-center col-12">Services</h1>
+        
+        <div className="col-12 col-sm-6 col-md-4 col-lg-3 py-1" >
+        <div className="card " style={cardstyle}>
+          <div className="card-body text-center">
+              Fund Raising <br /> Service
+          </div>
         </div>
-        <div class="col col-md-4 col-lg-3 " style={cardstyle}>
-          Legal and <br /> Accounting <br /> Services
         </div>
-        <div class="col col-md-4 col-lg-3 " style={cardstyle}>
-          Digital <br /> Marketing
+        <div className="col-12 col-sm-6 col-md-4 col-lg-3 py-1" >
+        <div className="card " style={cardstyle}>
+          <div className="card-body text-center">
+              Fund Raising <br /> Service
+          </div>
         </div>
-        <div class="col col-md-4 col-lg-3 " style={cardstyle}>
-          App <br /> Development <br /> Service
         </div>
-        <div class="col col-md-4 col-lg-3" style={cardstyle}>
-          Company <br /> Registration
+        <div className="col-12 col-sm-6 col-md-4 col-lg-3 py-1" >
+        <div className="card " style={cardstyle}>
+          <div className="card-body text-center">
+              Fund Raising <br /> Service
+          </div>
         </div>
-        <div class="col col-md-4 col-lg-3 " style={cardstyle}>
-          Legal and <br /> Accounting <br /> Services
         </div>
-        <div class="col  col-md-4 col-lg-3 " style={cardstyle}>
-          Digital <br /> Marketing
+        <div className="col-12 col-sm-6 col-md-4 col-lg-3 py-1" >
+        <div className="card " style={cardstyle}>
+          <div className="card-body text-center">
+              Fund Raising <br /> Service
+          </div>
         </div>
-        <div class="col  col-md-4 col-lg-3 " style={cardstyle}>
-          App <br /> Development <br /> Service
         </div>
+        <div className="col-12 col-sm-6 col-md-4 col-lg-3 py-1" >
+        <div className="card " style={cardstyle}>
+          <div className="card-body text-center">
+              Fund Raising <br /> Service
+          </div>
+        </div>
+        </div>
+        <div className="col-12 col-sm-6 col-md-4 col-lg-3 py-1" >
+        <div className="card " style={cardstyle}>
+          <div className="card-body text-center">
+              Fund Raising <br /> Service
+          </div>
+        </div>
+        </div>
+        <div className="col-12 col-sm-6 col-md-4 col-lg-3 py-1" >
+        <div className="card " style={cardstyle}>
+          <div className="card-body text-center">
+              Fund Raising <br /> Service
+          </div>
+        </div>
+        </div>
+        <div className="col-12 col-sm-6 col-md-4 col-lg-3 py-1" >
+        <div className="card " style={cardstyle}>
+          <div className="card-body text-center">
+              Fund Raising <br /> Service
+          </div>
+        </div>
+        </div>
+        
 
        
       </div>
