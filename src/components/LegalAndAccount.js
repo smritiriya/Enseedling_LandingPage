@@ -37,20 +37,56 @@ const LegalAndAccount = () => {
     
 
   return (
+    // <>
+    //   <div className="container1 d-flex p-5" style={myStyle}>
+    //     <div className="container1-img" style={imgBox}>
+    //       <img src={abc} alt="" />
+    //     </div>
+    //     <div className="container1-Content w-30%" style={containerContent}>
+    //       <h1 className="mb-4" style={heading}>
+    //         Legal and Accounting Services
+    //       </h1>
+    //       <p className="mb-4" style={para}>
+    //         Take assistance from a trustworthy partner to handle your legal and
+    //         accounting needs.
+    //       </p>
+          // <ul>
+          //   <li className="mb-3">
+          //     Register your company hassle-free wherever you wante
+          //   </li>
+          //   <li className="mb-3">Prepare your documents and identification.</li>
+          //   <li className="mb-3">Pick the most effective company structure.</li>
+          //   <li className="mb-3">Get the correct permits and licenses.</li>
+          //   <a href="">
+          //     learn more &nbsp;&nbsp;
+          //     <i class="fa-solid fa-arrow-right"></i>
+          //   </a>
+
+          // </ul>
+    //     </div>
+    //   </div>
+    // </>
     <>
-      <div className="container1 d-flex p-5" style={myStyle}>
-        <div className="container1-img" style={imgBox}>
-          <img src={abc} alt="" />
-        </div>
-        <div className="container1-Content w-30%" style={containerContent}>
-          <h1 className="mb-4" style={heading}>
-            Legal and Accounting Services
-          </h1>
-          <p className="mb-4" style={para}>
-            Take assistance from a trustworthy partner to handle your legal and
-            accounting needs.
-          </p>
-          <ul>
+      <div className="container" style={myStyle}>
+        <div className="row justify-content-center ">
+          <div className="col-12 col-lg-6  " style={imgBox}>
+            <img
+              src={abc}
+              alt=""
+              srcset=""
+              style={{ widh: " 100%", height: "25rem" }}
+            />
+          </div>
+          <div className="col-12 col-lg-6" style={containerContent}>
+            <h1 className="mb-5" style={heading}>
+              Legal and Accounting Services
+            </h1>
+
+            <p className="mb-3" style={para}>
+              Take assistance from a trustworthy partner to handle your legal
+              and  accounting needs.
+            </p>
+           <ul>
             <li className="mb-3">
               Register your company hassle-free wherever you wante
             </li>
@@ -61,8 +97,9 @@ const LegalAndAccount = () => {
               learn more &nbsp;&nbsp;
               <i class="fa-solid fa-arrow-right"></i>
             </a>
-           
+
           </ul>
+          </div>
         </div>
       </div>
     </>
@@ -70,4 +107,4 @@ const LegalAndAccount = () => {
 };
 
 
-export default LegalAndAccount
+export default LegalAndAccount;
