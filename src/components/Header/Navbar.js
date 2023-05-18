@@ -1,11 +1,11 @@
 import React from "react";
-import { logo } from "../assets";
+import { logo } from "../../assets";
 
 
 
 function Navbar() {
     return (
-      <nav className="navbar navbar-expand-lg  p-4 ">
+      <nav className="navbar navbar-expand-lg px-0">
         <div className="container-fluid">
           <img src={logo} alt="logo" />
           <button
@@ -61,12 +61,12 @@ function Navbar() {
               /> */}
 
               <ul className="navbar-nav ">
-                <li className="nav-item">
+                <li className="nav-item px-1">
                   <a className="nav-link" href="#">
                     Login
                   </a>
                 </li>
-                <button className="btn btn-outline-info" type="submit">
+                <button className="btn btn-outline-info px-1" type="submit">
                   Search
                 </button>
               </ul>

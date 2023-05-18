@@ -1,9 +1,8 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import Navbar from "./components/Navbar";
-import Service from "./components/Services/Service";
-import Section1 from "./components/Section1";
+import "./App.css"
+import Navbar from "./components/Header/Navbar";
+import Service from "./section/HomeSection/Services";
+import Section1 from "./section/HomeSection/Section-1";
 import CompanyRegis from "./components/CompanyRegis";
 import LegalAndAccount from "./components/LegalAndAccount";
 import DigitalMarketing from "./components/DigitalMarketing";
@@ -20,7 +19,7 @@ function App() {
   return (
     <>
       <Navbar />
-      {/* <Section1 /> */}
+      <Section1 />
       <Service />
       {/* <CompanyRegis />
       <LegalAndAccount />
