@@ -26,6 +26,7 @@ const Section1 = () => {
                 <CommonButton
                   title="are You startup founder"
                   background={color.brightPurple}
+                  border='none'
                   color={color.white}
                   width={"auto"}
                   height={"2rem"}
@@ -41,6 +42,7 @@ const Section1 = () => {
                       title="are You startup founder"
                       background="transparent"
                       color={color.brightPurple}
+                      border='none'
                       width={"auto"}
                   height={"2rem"}
                     />

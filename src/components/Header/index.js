@@ -1,79 +1,54 @@
 import React from "react";
 import { logo } from "../../assets";
-
-
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import color from '../../constant'
+import CommonButton from "../Button/CommonButton";
 
 function HeaderNavbar() {
     return (
-      <nav className="navbar navbar-expand-lg px-0">
-        <div className="container-fluid">
+      <Navbar collapseOnSelect expand="lg" bg="light" variant="light" >
+      <Container fluid>
+        <Navbar.Brand href="#home">
           <img src={logo} alt="logo" />
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon" />
-          </button>
-          <div
-            className="collapse navbar-collapse d-flex justify-content-around"
-            id="navbarSupportedContent"
-          >
-            <ul className="navbar-nav ">
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Features
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  About Us
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Career
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Investor corner
-                </a>
-              </li>
-             
-              
-            </ul>
-            <form className="d-flex" role="search">
-              {/* <input
-                className="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              /> */}
-
-              <ul className="navbar-nav ">
-                <li className="nav-item px-1">
-                  <a className="nav-link" href="#">
-                    Login
-                  </a>
-                </li>
-                <button className="btn btn-outline-info px-1" type="submit">
-                  Search
-                </button>
-              </ul>
-            </form>
-          </div>
-        </div>
-      </nav>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" className="border-0 "   />
+        <Navbar.Collapse id="responsive-navbar-nav row">
+          <Nav className="col-lg-9 d-flex align-items-center justify-content-center ">
+            <Nav.Link href="#features" className="Text-2" style={{color:color.dark}}>Home</Nav.Link>
+            <NavDropdown title="Features" id="collasible-nav-dropdown" className="Text-2" style={{color:color.dark}}>
+              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
+                Another action
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.4">
+                Separated link
+              </NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link href="#pricing" className="Text-2" style={{color:color.dark}}>About Us</Nav.Link>
+            <Nav.Link href="#pricing" className="Text-2" style={{color:color.dark}}>Career </Nav.Link>
+            <Nav.Link href="#pricing" className="Text-2" style={{color:color.dark}}>Investor Corner </Nav.Link>
+          </Nav>
+          <Nav className="col-lg-3 d-flex align-items-center justify-content-end">
+            <Nav.Link href="#deets" className="Text-2" style={{color:color.dark}}>Log in </Nav.Link>
+            <CommonButton
+                      title="Contact Us"
+                      background="transparent"
+                      color={color.brightPurple}
+                      width={"auto"}
+                      height={"2rem"}
+                      border='2px solid '
+                      borderColor={color.brightPurple}
+                    />
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+     
     );
 }
 

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function CommonButton({children, height, borderRadius, width, color, background, fontWeight, title, onClick }) {
+export default function CommonButton({children, height, borderRadius, width, color, background, fontWeight, title, onClick, border, borderColor }) {
 
     const styles = {
         button: {
@@ -11,8 +11,9 @@ export default function CommonButton({children, height, borderRadius, width, col
             color:color,
             fontWeight: fontWeight && fontWeight,
             borderRadius: borderRadius ? borderRadius : "5px",
-            border: 'none',
+            border: border,
             background: background,
+            borderColor: borderColor,
             padding: 10,
             textAlign: 'center',
             fontSize: '15px',
