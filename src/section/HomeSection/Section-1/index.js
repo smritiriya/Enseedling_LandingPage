@@ -47,7 +47,7 @@ const Section1 = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-lg-6 " style={ContainerImg}>
+          <div className="col-12 col-lg-6 " >
             <img
               src={img1}
               alt=""
