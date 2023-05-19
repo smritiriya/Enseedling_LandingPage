@@ -1,22 +1,21 @@
 import React from "react";
+import { def } from "../../../assets";
 import color from "../../../constant";
-import { Cregister } from "../../../assets";
 import { AiFillCheckCircle } from "react-icons/ai";
 import { BsArrowRight  } from "react-icons/bs";
 
-const CompanyRegis = () => {
-
+const DigitalMarketing = () => {
+  
   return (
     <div className="row m-0 py-3 px-2 d-flex justify-content-center align-items-center">
       <div className="col-12 col-lg-6 ps-0 ps-sm-4">
         <text className="Heading-1" style={{ color: color.dark }}>
-          Company Registration Process
+        Digital Marketing
         </text>
         <br />
         <text className="Text-1" style={{ color: color.grey }}>
-          Enseedling provides professional and inclusive services for startups,
-          from company registration to after-launch support to help you unlock
-          your business growth.
+        Boost your business with our digital marketing services and thrive
+        and rule the online market.
         </text>
         <ul className="p-0">
           <li className="py-1 row">
@@ -30,7 +29,7 @@ const CompanyRegis = () => {
               className="Text-1 col-9 col-sm-10 col-md-9 d-flex justify-content-center flex-column"
               style={{ color: color.grey }}
             >
-              Register your company hassle-free wherever you wante
+              Generate A Pipeline Of Leads Online
             </text>
           </li>
           <li className="py-1 row">
@@ -44,7 +43,7 @@ const CompanyRegis = () => {
               className="Text-1 col-9 col-sm-10 col-md-9 d-flex justify-content-center flex-column"
               style={{ color: color.grey }}
             >
-              Prepare your documents and identification.
+              Establish A Solid Grip Over Social Media Platforms.
             </text>
           </li>
           <li className="py-1 row">
@@ -58,7 +57,7 @@ const CompanyRegis = () => {
               className="Text-1 col-9 col-sm-10 col-md-9 d-flex justify-content-center flex-column"
               style={{ color: color.grey }}
             >
-              Pick the most effective company structure.
+              Online Authority Building With Strong Personal Branding.
             </text>
           </li>
           <li className="py-1 row">
@@ -72,7 +71,8 @@ const CompanyRegis = () => {
               className="Text-1 col-9 col-sm-10 col-md-9 d-flex justify-content-center flex-column"
               style={{ color: color.grey }}
             >
-              Get the correct permits and licenses.
+              Boost Your Sales With The Proven Strategies Curated By Our
+              Experts.
             </text>
           </li>
           <li className="py-3 row ps-3">
@@ -95,14 +95,16 @@ const CompanyRegis = () => {
 
       <div className="col-12 col-lg-6">
         <img
-          src={Cregister}
+          src={def}
           alt=""
           className="img-fluid"
           style={{ widh: " 100%", maxHeight: "25rem" }}
         />
       </div>
     </div>
+    
+
   );
 };
 
-export default CompanyRegis;
+export default DigitalMarketing;

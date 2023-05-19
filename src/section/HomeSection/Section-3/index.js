@@ -1,6 +1,6 @@
 import React from 'react'
 import color from "../../../constant";
-import { Cregister } from "../../../assets";
+import { abc } from "../../../assets";
 import { AiFillCheckCircle } from "react-icons/ai";
 import { BsArrowRight  } from "react-icons/bs";
 
@@ -8,9 +8,9 @@ const LegalAndAccount = () => {
     
   return (
     <div className="row m-0 py-5 px-2 d-flex justify-content-center align-items-center">
-      <div className="col-12 col-lg-6 py-5 py-lg-0">
+      <div className="col-12 col-lg-6 py-3 py-lg-0">
         <img
-          src={Cregister}
+          src={abc}
           alt=""
           className="img-fluid"
           style={{ widh: " 100%", maxHeight: "25rem" }}

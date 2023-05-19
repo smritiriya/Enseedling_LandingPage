@@ -4,8 +4,8 @@ import Navbar from "./components/Header/Navbar";
 import Service from "./section/HomeSection/Services";
 import Section1 from "./section/HomeSection/Section-1";
 import CompanyRegis from "./section/HomeSection/Section-2";
-import LegalAndAccount from "./section/HomeSection/Section-3/LegalAndAccount";
-import DigitalMarketing from "./components/DigitalMarketing";
+import LegalAndAccount from "./section/HomeSection/Section-3";
+import DigitalMarketing from "./section/HomeSection/Section-4";
 import AppDevelopement from "./components/AppDevelopement";
 import FundRaising from "./components/FundRaising";
 import StartupSupport from "./components/StartupSupport";
@@ -23,8 +23,8 @@ function App() {
       <Service />
       <CompanyRegis />
       <LegalAndAccount />
-      {/* <DigitalMarketing />
-      <AppDevelopement />
+      <DigitalMarketing />
+      {/* <AppDevelopement />
       <FundRaising />
       <StartupSupport />
       <StartupAcc />
