@@ -1,22 +1,29 @@
-import React from "react";
+import React from 'react'
 import color from "../../../constant";
 import { Cregister } from "../../../assets";
 import { AiFillCheckCircle } from "react-icons/ai";
 import { BsArrowRight  } from "react-icons/bs";
 
-const CompanyRegis = () => {
-
+const LegalAndAccount = () => {
+    
   return (
     <div className="row m-0 py-5 px-2 d-flex justify-content-center align-items-center">
+      <div className="col-12 col-lg-6 py-5 py-lg-0">
+        <img
+          src={Cregister}
+          alt=""
+          className="img-fluid"
+          style={{ widh: " 100%", maxHeight: "25rem" }}
+        />
+      </div>
       <div className="col-12 col-lg-6 ps-0 ps-sm-4">
         <text className="Heading-1" style={{ color: color.dark }}>
-          Company Registration Process
+        Legal and Accounting Services
         </text>
         <br />
         <text className="Text-1" style={{ color: color.grey }}>
-          Enseedling provides professional and inclusive services for startups,
-          from company registration to after-launch support to help you unlock
-          your business growth.
+        Take assistance from a trustworthy partner to handle your legal
+        and  accounting needs.
         </text>
         <ul className="p-0">
           <li className="py-1 row">
@@ -92,17 +99,10 @@ const CompanyRegis = () => {
           </li>
         </ul>
       </div>
-
-      <div className="col-12 col-lg-6">
-        <img
-          src={Cregister}
-          alt=""
-          className="img-fluid"
-          style={{ widh: " 100%", maxHeight: "25rem" }}
-        />
-      </div>
     </div>
+    
   );
 };
 
-export default CompanyRegis;
+
+export default LegalAndAccount;
