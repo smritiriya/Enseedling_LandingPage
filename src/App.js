@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css"
-import Navbar from "./components/Header/Navbar";
+import HeaderNavbar from "./components/Header";
 import Service from "./section/HomeSection/Services";
 import Section1 from "./section/HomeSection/Section-1";
 import CompanyRegis from "./section/HomeSection/Section-2";
@@ -18,7 +18,7 @@ import Contactus from "./components/Contactus";
 function App() {
   return (
     <>
-      <Navbar />
+      <HeaderNavbar />
       <Section1 />
       <Service />
       <CompanyRegis />

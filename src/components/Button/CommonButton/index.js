@@ -13,7 +13,7 @@ export default function CommonButton({children, height, borderRadius, width, col
             borderRadius: borderRadius ? borderRadius : "5px",
             border: 'none',
             background: background,
-            // padding: '4px 25px',
+            padding: 10,
             textAlign: 'center',
             fontSize: '15px',
             cursor: 'pointer',

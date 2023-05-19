@@ -3,7 +3,7 @@ import { logo } from "../../assets";
 
 
 
-function Navbar() {
+function HeaderNavbar() {
     return (
       <nav className="navbar navbar-expand-lg px-0">
         <div className="container-fluid">
@@ -78,4 +78,4 @@ function Navbar() {
 }
 
 
-export default Navbar;
+export default HeaderNavbar;
