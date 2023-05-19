@@ -1,16 +1,17 @@
-import React from 'react'
+import React from "react";
+import { ghi } from "../../../assets";
 import color from "../../../constant";
-import { abc } from "../../../assets";
 import { AiFillCheckCircle } from "react-icons/ai";
 import { BsArrowRight  } from "react-icons/bs";
 
-const LegalAndAccount = () => {
-    
+const AppDevelopement = () => {
+ 
+
   return (
     <div className="row m-0 py-5 px-2 d-flex justify-content-center align-items-center">
       <div className="col-12 col-lg-6 py-3 py-lg-0">
         <img
-          src={abc}
+          src={ghi}
           alt=""
           className="img-fluid"
           style={{ widh: " 100%", maxHeight: "25rem" }}
@@ -18,12 +19,12 @@ const LegalAndAccount = () => {
       </div>
       <div className="col-12 col-lg-6 ">
         <text className="Heading-1" style={{ color: color.dark }}>
-        Legal and Accounting Services
+        App Developement Services
         </text>
         <br />
         <text className="Text-1" style={{ color: color.grey }}>
-        Take assistance from a trustworthy partner to handle your legal
-        and  accounting needs.
+        Boost your business with our terrific application development //
+        services. Turn your ideas into reality with us.
         </text>
         <ul className="p-0">
           <li className="py-1 row">
@@ -37,7 +38,7 @@ const LegalAndAccount = () => {
               className="Text-1 col-9 col-sm-10 col-md-9 d-flex justify-content-center flex-column"
               style={{ color: color.grey }}
             >
-              Register your company hassle-free wherever you wante
+              Quick App Deployment At Lower Cost.
             </text>
           </li>
           <li className="py-1 row">
@@ -51,7 +52,7 @@ const LegalAndAccount = () => {
               className="Text-1 col-9 col-sm-10 col-md-9 d-flex justify-content-center flex-column"
               style={{ color: color.grey }}
             >
-              Prepare your documents and identification.
+              User- Experience Centric Development. 
             </text>
           </li>
           <li className="py-1 row">
@@ -104,5 +105,4 @@ const LegalAndAccount = () => {
   );
 };
 
-
-export default LegalAndAccount;
+export default AppDevelopement;

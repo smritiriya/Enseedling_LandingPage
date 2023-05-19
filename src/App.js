@@ -6,7 +6,7 @@ import Section1 from "./section/HomeSection/Section-1";
 import CompanyRegis from "./section/HomeSection/Section-2";
 import LegalAndAccount from "./section/HomeSection/Section-3";
 import DigitalMarketing from "./section/HomeSection/Section-4";
-import AppDevelopement from "./components/AppDevelopement";
+import AppDevelopement from "./section/HomeSection/Section-5";
 import FundRaising from "./components/FundRaising";
 import StartupSupport from "./components/StartupSupport";
 import StartupAcc from "./components/StartupAccuisition";
@@ -24,8 +24,8 @@ function App() {
       <CompanyRegis />
       <LegalAndAccount />
       <DigitalMarketing />
-      {/* <AppDevelopement />
-      <FundRaising />
+      <AppDevelopement />
+      {/* <FundRaising />
       <StartupSupport />
       <StartupAcc />
       <Internship />
