@@ -13,7 +13,7 @@ import StartupAccuisition from "./section/HomeSection/Section-8";
 import Internship from "./section/HomeSection/Section-9";
 import CoreValue from "./section/HomeSection/CoreValues";
 import ContactUs from "./section/HomeSection/Section-10";
-import Footer from "./section/HomeSection/Footer";
+import Footer from "./components/Footer";
 import Blogs from "./section/HomeSection/Blogs";
 
 

@@ -9,12 +9,7 @@ import Badge from "react-bootstrap/Badge";
 import ListGroup from "react-bootstrap/ListGroup";
 
 const ContactUs = () => {
-  const left = {
-    // border: "2px solid red",
-    // width: "40%",
-    // marginRight:"10%"
-    paddingLeft:"10%"
-  };
+  
   const right = {
     paddingRight: "10%",
     boxShadow: " 0px 0px 8px rgba(0, 0, 0, 0.1)",
@@ -24,9 +19,12 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="row m-0 py-5 px-1 mt-5 d-flex justify-content-center align-items-center ">
-      <div className="col-12 col-lg-6 py-3 py-lg-0" style={left}>
-        <ListGroup as="ol" className="border-0">
+    <div className="row m-0 py-5 mt-5 d-flex justify-content-center align-items-center ">
+      <div className="col-12 col-lg-5 py-3 py-lg-0" >
+        <div className="row">
+
+        </div>
+        {/* <ListGroup as="ol" className="border-0">
           <ListGroup.Item
             as="li"
             className="d-flex justify-content-between align-items-start"
@@ -66,11 +64,12 @@ const ContactUs = () => {
           >
             <div className="ms-2 me-auto">London, UK</div>
           </ListGroup.Item>
-        </ListGroup>
+        </ListGroup> */}
       </div>
-      <div className="col-12 col-lg-6 " style={right}>
-        <h1 className="text-center">Contact Us</h1>
-        <Form style={{padding:"3rem"}}>
+      <div className="col-12 col-lg-7  p-0 m-0" >
+        <div className="col-8 shadow" >
+        <h1 className="text-center py-2">Contact Us</h1>
+        <Form className="py-5 px-4 row" >
         
           <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Control type="text" placeholder="Enter Name" />
@@ -88,10 +87,15 @@ const ContactUs = () => {
             <Form.Control type="text" placeholder="Company Name" />
           </Form.Group>
 
+          <Form.Group className="mb-3" controlId="formBasicPassword">
+            <Form.Control type="text" placeholder="Company Name" />
+          </Form.Group>
+
           <Button variant="primary" type="submit" className="width:100%">
             Submit
           </Button>
         </Form>
+        </div>
       </div>
     </div>
   );
