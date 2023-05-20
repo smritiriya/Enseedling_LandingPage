@@ -1,6 +1,6 @@
 import React from "react";
-import { logo } from "../../../assets";
-import color from "../../../constant";
+import { logo } from "../../assets";
+import color from "../../constant";
 import { AiFillCheckCircle } from "react-icons/ai";
 import { BsArrowRight } from "react-icons/bs";
 import Button from "react-bootstrap/Button";
