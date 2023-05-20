@@ -11,8 +11,12 @@ import img4 from "./img4.png";
 import jkl from "./jkl.png";
 import mno from "./mno.png";
 import pqr from "./pqr.png";
-import Rectangle from "./Rectangle.png";
+import Rectangle from "./Rectangle.png"; 
 import stu from "./stu.png";
 import Vec from "./Vec.png";
+import Vector1 from "./Vector1.png";
+import Vector2 from "./Vector2.png";
+import Vector from "./Vector.png";
 
-export { logo, abc, def, Cregister, ghi, img0, img1, img2, img3, img4, jkl, mno ,pqr  ,Rectangle ,stu  ,Vec };
+
+export { logo, abc, def, Cregister, ghi, img0, img1, img2, img3, img4, jkl, mno ,pqr  ,Rectangle ,stu  ,Vec,Vector,Vector1,Vector2 };
